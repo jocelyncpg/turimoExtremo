@@ -3,11 +3,15 @@ h1{
     text-align: center;
     font-family:arial;
     color: black; 
-    font-style:italic;
+    font-style:normal;
     background-color:rgb(255, 255, 255); 
     padding:  15px;
     border-radius: 32px;
-    font-size: 45px; 
+    font-size: 50px; 
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+      
 
 }
 
@@ -53,6 +57,21 @@ h4{
     text-align: left;
 }
 
+h5{
+    width: 600px;
+    font-size: 20px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black; 
+    font-style:normal;
+    background-color:rgb(255, 255, 255); 
+    margin-top: -3%;
+    margin-left: 0%;
+    margin-right: 0%;  
+    padding:  15px;
+    border-radius: 32px;
+   
+}
+
 h4,h6{
     font-size: 20px; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -70,116 +89,56 @@ h4,h6{
 
 }
 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .container-fluid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
 
+  iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+/* Responsivo */
+@media screen and (max-width: 960px ) {
+    .row {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 
- article{
-	display: block;
-    border-color: #eeeeee;
-    border-left-width: 2px;
-    border-style: solid;
-    border-top-width: 2px;
-    text-align: center;}
+  @media only screen and (max-width: 960px) {
+    .card-img-top{
+    width: 100%;
+  }
+}
 
-    html {
-		box-sizing: border-box;
-	}
-
-  .posts {
-        display: -moz-flex;
-        display: -webkit-flex;
-        display: -ms-flex;
-        display: flex;
-        -moz-flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -moz-align-items: -moz-stretch;
-        -webkit-align-items: -webkit-stretch;
-        -ms-align-items: -ms-stretch;
-        align-items: stretch;
-        text-align: center;
+@media screen and (max-width: 960px ) {
+    .iframe {
         width: 100%;
-        padding: 0;
     }
+  }
 
+  .carousel{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
      
-
-    .posts > * {
-        -moz-flex-shrink: 1;
-        -webkit-flex-shrink: 1;
-        -ms-flex-shrink: 1;
-        flex-shrink: 1;
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-    }
-
-   .posts > * {
-        width: 50%;
-    }
-
-    .posts > * {
-        padding: 4rem;
-        width: 50%;
-    }
-
-
-
-        article > :last-child {
-            margin-bottom: 0;
-        }
-
-        article:nth-child(2n - 1) {
-            border-left-width: 0;
-        }
-
-        article:nth-child(-n + 2) {
-            border-top-width: 0;
-        }
-
-
-        .posts > * {
-            width: 50%;
-        }
-
-        .posts > * {
-            padding: 2.5rem;
-            width: 50%;
-        }
-
-    
-    
-
-        .posts > * {
-            width: 100%;
-        }
-
-        .posts > * {
-            padding: 2rem;
-            width: 100%;
-        }
-
-       .posts > article:nth-child(2n - 1) {
-            border-left-width: 2px;
-        }
-
-        .posts > article:nth-child(-n + 2) {
-            border-top-width: 2px;
-        }
-
-        .posts > article:nth-child(n) {
-            border-left-width: 0;
-        }
-
-         .posts > article:nth-child(-n + 1) {
-            border-top-width: 0;
-        }
-
-        .posts > article .image {
-            max-width: 25rem;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-    
