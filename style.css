@@ -1,5 +1,4 @@
 h1{
-    
     text-align: center;
     font-family:arial;
     color: black; 
@@ -20,7 +19,8 @@ body{
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%; 
-    background-image:url(img/fondo-jpeg.jpeg); 
+    background-image:url(img/fondo-jpeg.jpeg);
+    font-family: Arial, Helvetica, sans-serif; 
 
 }
 
@@ -59,7 +59,6 @@ h4{
 
 h5
 {
-    width: 600px;
     font-size: 20px; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: black; 
@@ -97,14 +96,8 @@ h2{
 
 }
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
   
-  .column {   
-    width: 25%;
-    padding: 0 10px;
-  }
+
   
   .container-fluid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -116,9 +109,17 @@ h2{
 
   iframe{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 0 10px;
-    text-align: center;
     background-color: #f1f1f1;
+    align-items: center;
+    display: flex;
+    width: 100% ;
+    display: flex;
+    box-sizing: border-box;
+    align-items: left;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    
   }
   
   
@@ -134,6 +135,8 @@ h2{
 @media screen and (max-width: 960px ) {
     .iframe {
         width: 100%;
+        padding: 14rem;
+        
     }
   }
 
@@ -149,7 +152,8 @@ h2{
     display: flex;
     justify-content: center;
   }
-     
+   
+
   .weatherCard{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 0 10px;
@@ -157,5 +161,15 @@ h2{
     background-color: #f1f1f1;
     display: block;
     margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 
+  }
+
+  .container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
