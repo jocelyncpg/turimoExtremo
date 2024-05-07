@@ -57,7 +57,8 @@ h4{
     text-align: left;
 }
 
-h5{
+h5
+{
     width: 600px;
     font-size: 20px; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -83,6 +84,13 @@ h4,h6{
     margin-right: 0%;  
 }
 
+h2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 0 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
 .btn-primary{
     color: white;
     background-color: rgb(19, 156, 147);
@@ -93,8 +101,7 @@ h4,h6{
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .column {
-    float: left;
+  .column {   
     width: 25%;
     padding: 0 10px;
   }
@@ -104,11 +111,12 @@ h4,h6{
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+
   }
 
   iframe{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 16px;
+    padding: 0 10px;
     text-align: center;
     background-color: #f1f1f1;
   }
@@ -123,12 +131,6 @@ h4,h6{
     }
   }
 
-  @media only screen and (max-width: 960px) {
-    .card-img-top{
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 960px ) {
     .iframe {
         width: 100%;
@@ -141,4 +143,19 @@ h4,h6{
     text-align: center;
     background-color: #f1f1f1;
   }
+
+  .col-md-4{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
      
+  .weatherCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 0 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    display: block;
+    margin-bottom: 20px;
+
+  }
